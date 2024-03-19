@@ -59,7 +59,7 @@ export default function WhyUs() {
             Why Choose Us?
           </h1>
 
-          <div className="flex flex-wrap justify-center items-center gap-12">
+          <div className="flex flex-wrap justify-center items-around gap-12">
             <div className="max-w-xs flex flex-col items-center gap-5">
               <h2 className="text-toa-1 font-bold text-xl">
                 A Foundation of Empowerment
