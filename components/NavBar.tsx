@@ -1,20 +1,20 @@
 import Logo from "@/public/logo.png"
 import Image from "next/image"
 import Link from "next/link"
-import { PopupWidget } from "react-calendly"
-
+import NavBarButton from "./NavBarButton"
 export default function NavBar() {
+
   return (
-    <div className="flex min-w-full items-center justify-around p-4 bg-transparent gap-12">
-      <Link href="why-us" className="text-bungee w-[110px] justify-center flex text-toa-5">
+    <div className="flex min-w-full items-center justify-around p-3 bg-transparent gap-12 h-16">
+      <NavBarButton href="/why-us">
         Why us
-      </Link>
+      </NavBarButton>
       <Link href="/">
         <Image alt="logo image" src={Logo} width={100} height={60} />
       </Link>
-      <Link href="/contact-us" className="text-bungee w-[110px] text-toa-5">
+      <NavBarButton href="/contact-us">
         Contact us
-      </Link>
+      </NavBarButton>
     </div>
   )
 }
