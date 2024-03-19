@@ -1,10 +1,10 @@
 import Logo from "@/public/logo.png";
 import Image from "next/image";
 import Link from "next/link";
-import LegacyIcon from "@/public/legacy-icon.png";
-import EngagementIcon from "@/public/fan-engagement-icon.png";
-import CreativtyIcon from "@/public/creativity-innovation-icon.png";
-import GrowthIcon from "@/public/strategic-growth-icon.png";
+import LegacyIcon from "@/public/Icon4.png";
+import EngagementIcon from "@/public/Icon3.png";
+import CreativtyIcon from "@/public/Icon2.png";
+import GrowthIcon from "@/public/Icon1.png";
 export default function FourPillars() {
   return (
     <div className="flex flex-wrap items-center justify-around p-4 bg-transparent gap-8 max-w-screen-lg">
