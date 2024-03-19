@@ -7,13 +7,13 @@ import WhyUsImage3 from "@/public/Layer-2.png";
 import WhyUsImage4 from "@/public/Layer-3.png";
 export default function WhyUs() {
   return (
-    <main className="w-11/12 m-auto flex flex-col gap-3">
+    <main className="w-11/12 m-auto flex flex-col gap-3 max-w-screen-lg">
       <section className="flex flex-wrap justify-center gap-5 bg-toa-1 rounded-3xl drop-shadow-md p-9">
         <div className="max-w-lg">
           <h1 className="text-bungee text-toa-2 text-2xl">About Us</h1>
           <p className="text-inter font-semibold">
             At The Only Advisors, our journey began with a clear and powerful
-            purpose: to create a sanctuary in the digital realm where women
+            purpose: to create a sanctuary in the digital realm where female
             content creators are empowered, protected, and poised for success.
             Disturbed by the practices of management companies that exploited
             rather than supported talent, we vowed to pave a new path—one marked

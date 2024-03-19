@@ -5,7 +5,7 @@ import NavBarButton from "./NavBarButton"
 export default function NavBar() {
 
   return (
-    <div className="flex min-w-full items-center justify-around p-3 bg-transparent gap-12 h-16">
+    <div className="flex max-w-screen-md items-center m-auto justify-around p-3 bg-transparent gap-12 h-16">
       <NavBarButton href="/why-us">
         Why us
       </NavBarButton>
