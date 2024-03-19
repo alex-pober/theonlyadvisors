@@ -10,7 +10,6 @@ import LandingGirl from "@/public/TOA-lading-image.png"
 export default function Home() {
   return (
     <main className="flex flex-col items-center max-w-screen-lg m-auto">
-      <NavBar />
       <div className="max-w-screen-md w-full mt-8 px-3">
         <h1 className="animate-in  text-bungee text-5xl w-full text-toa-3">
           An Agency By Women

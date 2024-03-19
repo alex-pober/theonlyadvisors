@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Bungee } from "next/font/google";
 import "./globals.css";
 import { Theme } from '@radix-ui/themes'
+import NavBar from "@/components/NavBar";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const bungee = Bungee({ subsets: ["latin"], weight: '400', variable: "--font-bungee"})
 
@@ -17,8 +18,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${bungee.variable}`}>
+      <body id="root" className={`${inter.variable} ${bungee.variable} bg-toa-1`}>
         <Theme>
+          <NavBar />
           {children}
         </Theme>
       </body>
