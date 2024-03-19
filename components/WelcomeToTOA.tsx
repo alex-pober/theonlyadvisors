@@ -5,10 +5,10 @@ import LegacyIcon from "@/public/legacy-icon.png";
 import EngagementIcon from "@/public/fan-engagement-icon.png";
 import CreativtyIcon from "@/public/creativity-innovation-icon.png";
 import GrowthIcon from "@/public/strategic-growth-icon.png";
-export default function WelcomeToTOA() {
+export default function WelcomeToTOA({className}: {className: any}) {
   return (
-    <div className="w-screen bg-toa-4 my-5">
-      <div className="flex flex-wrap p-9 bg-transparent gap-8 max-w-screen-md m-auto justify-center">
+    <div className={`${className} w-screen bg-toa-4 w-11/12 rounded-3xl my-5`}>
+      <div className="flex flex-wrap p-9 bg-transparent gap-8 max-w-screen-md m-auto justify-around">
         <h1 className="text-bungee text-toa-1 text-2xl font-bold max-w-[300px]">
           Welcome to The Only Advisors
         </h1>

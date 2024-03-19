@@ -12,10 +12,10 @@ export default function Home() {
     <main className="flex flex-col items-center max-w-screen-lg m-auto">
       <NavBar />
       <div className="max-w-screen-md w-full mt-8 px-3">
-        <h1 className="text-bungee text-5xl w-full text-toa-3">
+        <h1 className="animate-in  text-bungee text-5xl w-full text-toa-3">
           An Agency By Women
         </h1>
-        <h1 className="text-bungee text-5xl text-toa-4 mr-[2.25rem] w-full flex flex-row-reverse ">
+        <h1 className="animate-in text-bungee text-5xl text-toa-4 mr-[2.25rem] w-full flex flex-row-reverse ">
           For Woman
         </h1>
         <Image
@@ -26,7 +26,7 @@ export default function Home() {
           className="m-auto"
         />
       </div>
-      <WelcomeToTOA />
+      <WelcomeToTOA className="animate-in"/>
       <FourPillars />
       <Footer />
     </main>
