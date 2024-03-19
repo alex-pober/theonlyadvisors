@@ -2,6 +2,7 @@ import Image from "next/image";
 import Palette from '@/public/vercel.svg'
 import { Flex, Text, Button } from '@radix-ui/themes';
 import NavBar from "@/components/NavBar";
+import Footer from "@/components/Footer";
 import FourPillars from "@/components/FourtPillars";
 import WelcomeToTOA from "@/components/WelcomeToTOA";
 import LandingGirl from "@/public/TOA-lading-image.png"
@@ -27,6 +28,7 @@ export default function Home() {
       </div>
       <WelcomeToTOA />
       <FourPillars />
+      <Footer />
     </main>
   );
 }
