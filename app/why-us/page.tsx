@@ -1,8 +1,9 @@
-import AboutUsImage from '@/public/About-us.png'
 import Image from 'next/image';
+import AboutUsImage from '@/public/About-us.png'
+import OutMissionImage from '@/public/Our-mission.png'
 export default function WhyUs() {
   return (
-    <main className="w-11/12 m-auto">
+    <main className="w-11/12 m-auto flex flex-col gap-3">
       <section className="flex flex-wrap justify-center gap-5 bg-toa-1 rounded-3xl drop-shadow-md p-9">
 
         <div className='max-w-lg'>
@@ -25,17 +26,22 @@ export default function WhyUs() {
         />
       </section>
 
-      <section className="flex flex-wrap justify-center gap-5 bg-toa-5 rounded-3xl p-9">
-        <div className='max-w-lg'>
-          <h1 className='text-bungee text-toa-1 text-2xl'>Our Mission</h1>
-          <p className='text-inter font-semibold text-toa-2'>
-            Our mission is twofold: to redefine what it means to be a content
-            creator management agency and to ensure that every woman who partners
-            with us feels valued, safe, and confident in her journey to success.
-            We believe in creating a transparent working environment where trust
-            is the foundation of every relationship.
+      <section className="flex flex-wrap flex-row items-center justify-center bg-toa-5 gap-5 rounded-3xl p-9">
+          <p className='text-inter text-center font-semibold text-toa-2 max-w-xs'>
+          We reshape the essence of a content creator management agency, pioneering a new standard of excellence and innovation.
           </p>
-        </div>
+          <div className='min-w-fit'>
+            <Image
+              alt='roading and 3 woman'
+              src={OutMissionImage}
+              width={300}
+              height={200}
+              className='m-auto'
+            />
+            <h1 className='text-bungee text-toa-1 text-2xl text-center sm:text-md'>Our mission is twofold</h1>
+          </div>
+          <p className='text-inter text-center font-semibold text-toa-2 max-w-xs'>
+          We empower every woman who joins us, fostering an environment where she feels deeply valued, safe, and emboldened to reach her fullest potential.          </p>
       </section>
 
       <section className="flex flex-wrap justify-center gap-5 bg-toa-4 rounded-3xl p-9">
