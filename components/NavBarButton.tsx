@@ -7,7 +7,7 @@ export default function NavBarButton({children, href}: {children: any, href: str
  const route = usePathname()
  console.log(route)
  return (
-  <Link href={href} className={`text-bungee w-[115px] justify-center flex ${href === route ? 'text-toa-5/25' : "text-toa-5"}`}>
+  <Link href={href} className={`text-bungee text-nowrap justify-center flex mx-2 ${href === route ? 'text-toa-5/25' : "text-toa-5"}`}>
     {children}
   </Link>
  )

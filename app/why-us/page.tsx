@@ -60,8 +60,8 @@ export default function WhyUs() {
           </h1>
 
           <div className="flex flex-wrap justify-center items-around gap-12">
-            <div className="max-w-xs flex flex-col items-center gap-5">
-              <h2 className="text-toa-1 font-bold text-xl">
+            <div className="max-w-xs flex flex-col items-center gap-5 ">
+              <h2 className="text-toa-1 font-bold text-xl text-center">
                 A Foundation of Empowerment
               </h2>
               <Image
@@ -79,7 +79,7 @@ export default function WhyUs() {
             </div>
 
             <div className="max-w-xs flex flex-col items-center gap-5">
-              <h2 className="text-toa-1 font-bold text-xl">
+              <h2 className="text-toa-1 font-bold text-xl text-center">
                 Transparency and Safety
               </h2>
               <Image
@@ -96,7 +96,7 @@ export default function WhyUs() {
             </div>
 
             <div className="max-w-xs min-h-48 flex flex-col items-center gap-5">
-              <h2 className="text-toa-1 font-bold text-xl">
+              <h2 className="text-toa-1 font-bold text-xl text-center">
                 For Women, By Women
               </h2>
               <Image
@@ -113,7 +113,7 @@ export default function WhyUs() {
             </div>
 
             <div className="max-w-xs min-h-xs flex flex-col items-center gap-5">
-              <h2 className="text-toa-1 font-bold text-xl">
+              <h2 className="text-toa-1 font-bold text-xl text-center">
                 Innovative Approach to Success
               </h2>
               <Image
