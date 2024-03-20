@@ -133,9 +133,9 @@ export default function WhyUs() {
         </div>
       </section>
 
-      <section className="flex flex-wrap justify-center gap-5 bg-toa-3 rounded-3xl p-9"></section>
+      {/* <section className="flex flex-wrap justify-center gap-5 bg-toa-3 rounded-3xl p-9"></section>
 
-      <section className="flex flex-wrap justify-center gap-5 bg-toa-2 min-h-28 rounded-3xl p-9"></section>
+      <section className="flex flex-wrap justify-center gap-5 bg-toa-2 min-h-28 rounded-3xl p-9"></section> */}
     </main>
   );
 }

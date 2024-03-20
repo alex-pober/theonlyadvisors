@@ -27,7 +27,6 @@ export default function Home() {
       </div>
       <WelcomeToTOA className="animate-in"/>
       <FourPillars />
-      <Footer />
     </main>
   );
 }

@@ -3,6 +3,7 @@ import { Inter, Bungee } from "next/font/google";
 import "./globals.css";
 import { Theme } from '@radix-ui/themes'
 import NavBar from "@/components/NavBar";
+import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const bungee = Bungee({ subsets: ["latin"], weight: '400', variable: "--font-bungee"})
 
@@ -22,6 +23,7 @@ export default function RootLayout({
         <Theme>
           <NavBar />
           {children}
+          <Footer />
         </Theme>
       </body>
     </html>
