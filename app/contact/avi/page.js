@@ -43,7 +43,7 @@ export default function Avi() {
       <a
         href="/Avi.vcf"
         download="Avi.vcf"
-        className="text-bungee min-h-8 p-6 bg-toa-4 text-toa-5 font-medium flex items-center justify-center text-[#FDFBED] h-full w-full"
+        className="text-bungee text-[#FDFBED] min-h-8 p-6 bg-toa-4 font-medium flex items-center justify-center h-full w-full"
       >
           <Download className='mr-5' /> SAVE TO CONTACTS
 
