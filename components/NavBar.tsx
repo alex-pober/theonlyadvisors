@@ -1,9 +1,18 @@
+'use client'
 import Logo from "@/public/logo.png";
 import Image from "next/image";
 import Link from "next/link";
 import NavBarButton from "./NavBarButton";
 import logo2d from '@/public/logo2D.svg'
+import { usePathname } from 'next/navigation';
+
 export default function NavBar() {
+  const pathname = usePathname();
+
+  if (pathname === '/contact/avi') {
+    return null;
+  }
+
   return (
     <div className="flex max-w-screen-md items-center m-auto justify-around p-3 bg-transparent gap-12 h-16">
       <Link href="/">
